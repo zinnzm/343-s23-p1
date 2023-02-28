@@ -68,6 +68,11 @@
       height: 5rem;
     }
 
+    p {
+      color: white;
+      text-align: center;
+    }
+
     li {
       color: #ff3399;
     }
