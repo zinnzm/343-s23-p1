@@ -1,4 +1,4 @@
- body{
+ body {
       margin: 0;
       padding: 0;
       width: 100vw;
@@ -18,6 +18,11 @@
 
       color: #ff3399;
       background-color: blue;
+    }
+
+    h2 {
+      text-align: center;
+      color: #ff3399;
     }
 
     nav {
@@ -51,6 +56,7 @@
 
     main {
       display: inline-block;
+      justify-content: center;
       width: 85vw;
       height: 100vh;
     }
@@ -63,9 +69,27 @@
       padding-left: 3rem;
     }
 
-    main>ul>li>img{
+    main>ul>li>img {
       width: 75rem;
       height: 5rem;
+    }
+
+    main>area {
+      align-content: center;
+    }
+
+    main>form {
+      color: #ff3399;
+
+      display: inline-flex;
+      flex-flow: column wrap;
+
+      padding: 2rem;
+    }
+
+    main>form>label {
+      padding: 0;
+      margin: 0;
     }
 
     p {
