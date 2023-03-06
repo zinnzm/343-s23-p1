@@ -35,8 +35,11 @@ h1 {
   text-align: center;
   vertical-align: center;
   margin: 0;
-  color: #ff3399;
-  background-color: blue;
+  color: #000000;
+  background-color: rgb(77, 77, 255);
+  font-family: "Helvetica", "Arial", sans-serif;
+  text-shadow: rgb(255, 255, 255) 2px 2px;
+  font-size: 40px;
 }
 
 h2 {
@@ -48,7 +51,7 @@ nav {
   grid-area: nav;
   display: inline-block;
 
-  background-color: #120985;
+  background-color: #ff3399;
 
   width: 8vw;
   height: 100vh;
@@ -124,24 +127,43 @@ p {
 }
 
 li {
-  color: #ff3399;
+  color: #000000;
 }
 
 a:link {
-color: #ff3399;
+color: #000000;
 }
 
 a:visited {
-color: #ff3399;
+color: #000000;
 text-decoration: none;
 }
 
 a:hover {
-color: #ff3399;
+color: #ffffff;
 text-decoration: none;
 }
 
 a:active {
+color: #ffffff;
+text-decoration: none;
+}
+
+a.event-list:link {
+  color: #ff3399;
+}
+  
+a.event-list:visited {
 color: #ff3399;
+text-decoration: none;
+}
+
+a.event-list:hover {
+color: #ffffff;
+text-decoration: none;
+}
+
+a.event-list:active {
+color: #ffffff;
 text-decoration: none;
 }
