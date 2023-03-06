@@ -6,6 +6,7 @@
   display: grid;
   width: 100%;
   height: 100%;
+  margin:0;
 
   grid-template-areas:
     "head head"
@@ -13,20 +14,38 @@
   grid-template-rows: 80px 1fr;
   grid-template-columns: 150px 1fr;
 }
-
+/* Media query for when width is at smartphone pixel width. */
 @media screen and (max-width: 500px) {
   body {
     background-color: black;
     font-family: "Helvetica", "Arial", sans-serif;
     font-weight: bold;
+    width: 100vw;
+    height: 100vh;
 
     display: grid;
     grid-template-areas:
       "head"
       "nav"
-      "main";
+      "main" ;
       grid-template-rows: 80px 1fr;
       grid-template-columns: 100vw 1fr;
+  }
+  nav {
+    position:relative;
+    width: max-content;
+    margin: 0;
+
+  }
+  main {
+    position:absolute;
+    left: 50px;
+    top: 150px;
+    margin: 0;
+  }
+  .events img{
+    width: 70vw;
+
   }
 }
 
