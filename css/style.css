@@ -39,10 +39,11 @@ h1 {
   background-color: rgb(77, 77, 255);
   font-family: "Helvetica", "Arial", sans-serif;
   text-shadow: rgb(255, 255, 255) 2px 2px;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   color: #ff3399;
 }
@@ -72,6 +73,7 @@ nav>ul>li {
 }
 
 nav>ul>li:first-child {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   padding-bottom: 1rem;
 }
